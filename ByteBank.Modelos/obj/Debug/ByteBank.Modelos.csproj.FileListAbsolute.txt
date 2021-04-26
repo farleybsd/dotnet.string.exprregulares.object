@@ -1,0 +1,7 @@
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.xml
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.dll
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.pdb
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csprojAssemblyReference.cache
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.dll
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.pdb

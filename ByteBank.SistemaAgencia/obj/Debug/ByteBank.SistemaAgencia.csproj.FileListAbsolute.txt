@@ -1,0 +1,11 @@
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.exe.config
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.exe
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.pdb
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.dll
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.pdb
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.xml
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csprojAssemblyReference.cache
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CoreCompileInputs.cache
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CopyComplete
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.exe
+C:\MyGit\dotnet.string.exprregulares.object\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.pdb
