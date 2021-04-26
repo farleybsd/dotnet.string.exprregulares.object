@@ -12,7 +12,19 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            ExtratorValorDeArgumentosURL extrator = new ExtratorValorDeArgumentosURL("");
+
+            // testando palavra 
+
+            string palavra = "moedaDestino=dolar";
+            string nomeArgumento = "moedaDestino";
+            int indece = palavra.IndexOf(nomeArgumento);
+            Console.WriteLine(palavra);
+            Console.WriteLine(indece);
+            Console.WriteLine("Tamanho da string nomeArgumento" + nomeArgumento.Length);
+            Console.WriteLine(palavra.Substring(indece));
+            Console.WriteLine(palavra.Substring(indece + nomeArgumento.Length +1));
+            Console.ReadLine();
+            //ExtratorValorDeArgumentosURL extrator = new ExtratorValorDeArgumentosURL("");
 
             string url = "paginas?moedaOrigem=real&moedaDestino=dolar";
 
