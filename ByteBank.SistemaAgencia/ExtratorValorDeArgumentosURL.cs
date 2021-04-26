@@ -25,9 +25,19 @@ namespace ByteBank.SistemaAgencia
             }
         }
 
-        public string GeTValor(string nomeParametro)
+        public string GeValor(string nomeParametro)
         {
-            return "";
+            string termo = nomeParametro + "=" ;
+            int indiceTermo = _argumentos.IndexOf(termo);
+            string resultado = _argumentos.Substring(indiceTermo + termo.Length);
+            int indiceEComercial = resultado.IndexOf('&');
+
+            if (indiceEComercial == -1)
+            {
+                return resultado;
+            }
+
+            return resultado.Remove(indiceEComercial);
         }
     }
 }
