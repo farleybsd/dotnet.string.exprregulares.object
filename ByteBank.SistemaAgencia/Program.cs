@@ -20,8 +20,10 @@ namespace ByteBank.SistemaAgencia
             // Meu nome é Guilherme, me ligue em 4784-4546
 
             //string padrao = "[0-9][0-9][0-9[0-9][-][0-9][0-9][0-9][0-9]";
-            string padrao = "[0-9]{4}[-][0-9]{4}"; // {4} quantidade de vezes que ira repetir [0-9] porque o modelo e 4 casas - 4 casas
-            string textoDeTeste = "Meu nome é Guilherme, me ligue em 4784-4546";
+            //string padrao = "[0-9]{4}[-][0-9]{4}"; // {4} quantidade de vezes que ira repetir [0-9] porque o modelo e 4 casas - 4 casas
+            //string padrao = "[0-9]{4,5}-{0,1}[0-9]{4}"; // a casa antes do - pode ter de 4 a 5 digitos usando {4,5}
+            string padrao = "[0-9]{4,5}-?[0-9]{4}"; // pode ser -? ou nao digitado o -
+            string textoDeTeste = "Meu nome é Guilherme, me ligue em 99105-7769";
 
             //Console.WriteLine(Regex.IsMatch(textoDeTeste, padrao)); retornar true/false
             Match resultado = Regex.Match(textoDeTeste, padrao);
