@@ -13,9 +13,26 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-
+            /*
             object conta = new ContaCorrente(456,687876);
             Console.WriteLine(conta);
+
+            */
+
+            var carlos_1 = new Cliente()
+            {
+                Nome = "Carlos",
+                CPF = "114.052.636.79",
+                Profissao = "Programador"
+            };
+
+            var carlos_2 = new Cliente()
+            {
+                Nome = "Carlos",
+                CPF = "114.052.636.79",
+                Profissao = "Programador"
+            };
+            if (carlos_1.Equals(carlos_2)) { Console.WriteLine("São iguas"); } else { Console.WriteLine("Não São Iguais"); };
 
             // regex usa os codigo da tabela ascii
             // Olá, meu nome é Guilherme e você pode entrar em contato comigo
@@ -25,7 +42,7 @@ namespace ByteBank.SistemaAgencia
             //string padrao = "[0-9][0-9][0-9[0-9][-][0-9][0-9][0-9][0-9]";
             //string padrao = "[0-9]{4}[-][0-9]{4}"; // {4} quantidade de vezes que ira repetir [0-9] porque o modelo e 4 casas - 4 casas
             //string padrao = "[0-9]{4,5}-{0,1}[0-9]{4}"; // a casa antes do - pode ter de 4 a 5 digitos usando {4,5}
-            
+
             /*
             string padrao = "[0-9]{4,5}-?[0-9]{4}"; // pode ser -? ou nao digitado o -
             string textoDeTeste = "Meu nome é Guilherme, me ligue em 99105-7769";

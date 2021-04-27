@@ -14,16 +14,15 @@ namespace ByteBank.Modelos
 
         public override bool Equals(object obj)
         {
-            Cliente outrocliente = obj as Cliente;
+            //Cliente outroCliente = (Cliente)obj;
+            Cliente outroCliente = obj as Cliente;
 
-            if (outrocliente ==null)
+            if (outroCliente == null)
             {
                 return false;
             }
-            return
-                Nome == outrocliente.Nome &&
-                CPF == outrocliente.CPF &&
-                Profissao == outrocliente.Profissao;
+
+            return CPF == outroCliente.CPF;
         }
     }
 }
