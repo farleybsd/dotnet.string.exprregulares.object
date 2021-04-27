@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using ByteBank.Modelos;
 using ByteBank.Modelos.Funcionarios;
@@ -13,13 +14,24 @@ namespace ByteBank.SistemaAgencia
         static void Main(string[] args)
         {
 
+            // Olá, meu nome é Guilherme e você pode entrar em contato comigo
+            // através do número 8457-4456!
+            // Meu nome é Guilherme, me ligue em 4784-4546
+
+            string padrao = "[0123456789][0123456789][0123456789][0123456789][-][0123456789][0123456789][0123456789][0123456789]";
+            string textoDeTeste = "Meu nome é Guilherme, me ligue em 4784-4546";
+
+            //Console.WriteLine(Regex.IsMatch(textoDeTeste, padrao)); retornar true/false
+            Match resultado = Regex.Match(textoDeTeste, padrao);
+            Console.WriteLine(resultado.Value);
+            /*
             string urlTeste = "http://www.bytebank.com/cambio";
             int indiceByteBank = urlTeste.IndexOf("http://www.bytebank");
 
             Console.WriteLine(urlTeste.StartsWith("http://www.bytebank")); // inicia com
             Console.WriteLine(urlTeste.EndsWith("cambio")); // termina com
             Console.WriteLine(urlTeste.Contains("bytebank")); // se uma string comtem a outra 
-
+            */
             /*
             string urlParametro = "http://www.bytebank.com/cambio?moedaOrigem=real&moedaDestino=dolar&valor=1500";
 
