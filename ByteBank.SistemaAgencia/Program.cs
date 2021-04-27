@@ -14,6 +14,9 @@ namespace ByteBank.SistemaAgencia
         static void Main(string[] args)
         {
 
+            object conta = new ContaCorrente(456,687876);
+            Console.WriteLine(conta);
+
             // regex usa os codigo da tabela ascii
             // Olá, meu nome é Guilherme e você pode entrar em contato comigo
             // através do número 8457-4456!
@@ -22,12 +25,16 @@ namespace ByteBank.SistemaAgencia
             //string padrao = "[0-9][0-9][0-9[0-9][-][0-9][0-9][0-9][0-9]";
             //string padrao = "[0-9]{4}[-][0-9]{4}"; // {4} quantidade de vezes que ira repetir [0-9] porque o modelo e 4 casas - 4 casas
             //string padrao = "[0-9]{4,5}-{0,1}[0-9]{4}"; // a casa antes do - pode ter de 4 a 5 digitos usando {4,5}
+            
+            /*
             string padrao = "[0-9]{4,5}-?[0-9]{4}"; // pode ser -? ou nao digitado o -
             string textoDeTeste = "Meu nome é Guilherme, me ligue em 99105-7769";
 
             //Console.WriteLine(Regex.IsMatch(textoDeTeste, padrao)); retornar true/false
             Match resultado = Regex.Match(textoDeTeste, padrao);
             Console.WriteLine(resultado.Value);
+            */
+
             /*
             string urlTeste = "http://www.bytebank.com/cambio";
             int indiceByteBank = urlTeste.IndexOf("http://www.bytebank");
