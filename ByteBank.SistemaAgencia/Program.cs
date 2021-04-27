@@ -14,11 +14,13 @@ namespace ByteBank.SistemaAgencia
         static void Main(string[] args)
         {
 
+            // regex usa os codigo da tabela ascii
             // Olá, meu nome é Guilherme e você pode entrar em contato comigo
             // através do número 8457-4456!
             // Meu nome é Guilherme, me ligue em 4784-4546
 
-            string padrao = "[0123456789][0123456789][0123456789][0123456789][-][0123456789][0123456789][0123456789][0123456789]";
+            //string padrao = "[0-9][0-9][0-9[0-9][-][0-9][0-9][0-9][0-9]";
+            string padrao = "[0-9]{4}[-][0-9]{4}"; // {4} quantidade de vezes que ira repetir [0-9] porque o modelo e 4 casas - 4 casas
             string textoDeTeste = "Meu nome é Guilherme, me ligue em 4784-4546";
 
             //Console.WriteLine(Regex.IsMatch(textoDeTeste, padrao)); retornar true/false
